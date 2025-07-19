@@ -2,6 +2,7 @@ screenshots/
 reports/
 # Maven build output
 target/
+test-output/
 
 # Eclipse project files
 .project

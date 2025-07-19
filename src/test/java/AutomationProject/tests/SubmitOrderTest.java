@@ -49,12 +49,12 @@ public class SubmitOrderTest extends BaseTest {
         Assert.assertTrue(orderHistoryPage.isOrderMatch(PRODUCT_NAME), "Order not found in history");
     }
 
-    @Test(retryAnalyzer = AutomationProject.tests.testComponents.Retry.class)
-    public void failedRetryValidation() {
-        ProductCatalogue productCatalogue = lp.appLogin(DEFAULT_EMAIL, DEFAULT_PASSWORD);
-        
-        Assert.fail("Force failure for retry test");
-    }
+//    @Test(retryAnalyzer = AutomationProject.tests.testComponents.Retry.class)
+//    public void failedRetryValidation() {
+//        ProductCatalogue productCatalogue = lp.appLogin(DEFAULT_EMAIL, DEFAULT_PASSWORD);
+//        
+//        Assert.fail("Force failure for retry test");
+//    }
 
     @DataProvider
     public Object[][] getData() throws IOException {
