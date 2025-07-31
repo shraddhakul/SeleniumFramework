@@ -15,5 +15,11 @@
     <classes>
       <class name="AutomationProject.tests.ErrorValidationsTest"/>
     </classes>
+  </test>
+  <test thread-count="5" name="User Registration Test">
+    <classes>
+      <class name="AutomationProject.tests.RegistrationTest"/>
+    </classes>
+
   </test> <!-- Test -->
 </suite> <!-- Suite -->
