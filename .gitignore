@@ -3,7 +3,9 @@ reports/
 # Maven build output
 target/
 test-output/
+
 .idea/
+
 
 # Eclipse project files
 .project
