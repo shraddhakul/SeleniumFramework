@@ -4,6 +4,9 @@ reports/
 target/
 test-output/
 
+.idea/
+
+
 # Eclipse project files
 .project
 .classpath
