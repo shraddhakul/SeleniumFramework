@@ -55,7 +55,11 @@ public class AbstractComponent {
     public void waitForElementToDisappear(By locator) throws InterruptedException {
 //        new WebDriverWait(driver, Duration.ofSeconds(10))
 //            .until(ExpectedConditions.invisibilityOfElementLocated(locator));
-    	Thread.sleep(7000);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(
+               spinner
+        ));
+    	//Thread.sleep(7000);
     }
 
     public void waitForPresenceOfElement(By locator) {
